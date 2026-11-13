@@ -35,5 +35,5 @@ jobs:
         run: encoder --help 
 
       - name: Run tests
-        run: python -m unittest
+        run: pytest
          
